@@ -1,0 +1,40 @@
+.messageWrapper {
+    display: flex;
+
+}
+
+.messageBody {
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    position: relative;
+}
+
+.messageName {
+    color: purple;
+    padding: 0 0 10px 0;
+}
+
+.message {
+    color: white;
+}
+
+.time {
+    color: white;
+    align-self: flex-end;
+    padding-left: 10px;
+}
+.messageBody::after {
+    content: "";
+    position: absolute;
+    left: -8px;
+    bottom: -6px;
+    width: 8px;
+    height: 8px;
+    border-right: 8px solid #191b1f;
+    border-bottom-right-radius: 16px 8px;
+}
+.avatar {
+    align-self: flex-end;
+}
