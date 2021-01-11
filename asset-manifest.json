@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/zadachi-Ignata/static/css/main.d0b5d980.chunk.css",
+    "main.js": "/zadachi-Ignata/static/js/main.ae7af03e.chunk.js",
+    "main.js.map": "/zadachi-Ignata/static/js/main.ae7af03e.chunk.js.map",
+    "runtime-main.js": "/zadachi-Ignata/static/js/runtime-main.22dd4814.js",
+    "runtime-main.js.map": "/zadachi-Ignata/static/js/runtime-main.22dd4814.js.map",
+    "static/js/2.1cfec22c.chunk.js": "/zadachi-Ignata/static/js/2.1cfec22c.chunk.js",
+    "static/js/2.1cfec22c.chunk.js.map": "/zadachi-Ignata/static/js/2.1cfec22c.chunk.js.map",
+    "index.html": "/zadachi-Ignata/index.html",
+    "precache-manifest.b8a29fa9bbd80f692c9b6b80442c84bb.js": "/zadachi-Ignata/precache-manifest.b8a29fa9bbd80f692c9b6b80442c84bb.js",
+    "service-worker.js": "/zadachi-Ignata/service-worker.js",
+    "static/css/main.d0b5d980.chunk.css.map": "/zadachi-Ignata/static/css/main.d0b5d980.chunk.css.map",
+    "static/js/2.1cfec22c.chunk.js.LICENSE.txt": "/zadachi-Ignata/static/js/2.1cfec22c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.22dd4814.js",
+    "static/js/2.1cfec22c.chunk.js",
+    "static/css/main.d0b5d980.chunk.css",
+    "static/js/main.ae7af03e.chunk.js"
+  ]
+}
