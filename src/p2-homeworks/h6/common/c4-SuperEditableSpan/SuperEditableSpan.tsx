@@ -1,4 +1,4 @@
-import React, {DetailedHTMLProps, InputHTMLAttributes, HTMLAttributes, useState} from "react";
+import React, {DetailedHTMLProps, InputHTMLAttributes, HTMLAttributes, useState, ClassAttributes} from "react";
 import SuperInputText from "../../../h4/common/c1-SuperInputText/SuperInputText";
 
 // тип пропсов обычного инпута
@@ -32,16 +32,16 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
 
     const onEnterCallback = () => {
         // setEditMode(); // выключить editMode при нажатии Enter
-
+         setEditMode(!editMode)
         onEnter && onEnter();
     };
     const onBlurCallback = (e: React.FocusEvent<HTMLInputElement>) => {
         // setEditMode(); // выключить editMode при нажатии за пределами инпута
-
+        setEditMode(!editMode)
         onBlur && onBlur(e);
     };
     const onDoubleClickCallBack = (e: React.MouseEvent<HTMLSpanElement, MouseEvent>) => {
-        // setEditMode(); // включить editMode при двойном клике
+         setEditMode(!editMode);
 
         onDoubleClick && onDoubleClick(e);
     };
