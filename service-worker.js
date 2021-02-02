@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/zadachi-Ignata/precache-manifest.b8a29fa9bbd80f692c9b6b80442c84bb.js"
+  "/zadachi-Ignata/precache-manifest.e321292ddbe3a959de01a909540355aa.js"
 );
 
 self.addEventListener('message', (event) => {
